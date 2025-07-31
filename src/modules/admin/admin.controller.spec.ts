@@ -4,7 +4,7 @@ import { AdminController } from './admin.controller';
 describe('AdminController', () => {
   let controller: AdminController;
 
-  beforeEach(async () => { 
+  beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       controllers: [AdminController],
     }).compile();

@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get('/saleel')
+  getHelloSaleel(): string {
+    return this.appService.getHelloSaleel();
+  }
 }
